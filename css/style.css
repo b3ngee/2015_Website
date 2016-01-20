@@ -1,0 +1,416 @@
+body{
+	font-family: 'Pontano Sans', sans-serif;
+}
+p{
+	font-family: 'Pontano Sans', sans-serif;
+}
+a{
+	font-family: 'Pontano Sans', sans-serif;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+.navbar {
+	background-color: #eeeeeee;
+	background: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #7CEECE;
+}
+header{
+	background: url(../images/creative2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.section_overlay{
+	background: rgba(250,250,250, .5);
+}
+.home_text{
+	padding-top: 210px;
+	padding-bottom: 210px;
+}
+.home_text h2{
+	color: #010101;
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 100px;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+}
+.home_text p{
+	color: #404040;
+    font-family: 'Ubuntu', sans-serif;
+ 	font-size: 24px;
+	text-transform: uppercase;
+}
+.home_text img{}
+.scroll_down{
+	padding-bottom: 50px;
+}
+.scroll_down h4{
+	font-size: 12px;
+	color: #000;
+	font-family: 'Pontano Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+/* Typed.js Blinking Cursor */
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.single_progress_bar .progress {
+height: 10px;
+margin-bottom: 20px;
+overflow: hidden;
+background-color: #2d3334;
+border-radius: 0px;
+-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.single_progress_bar .progress-bar {
+background-color: #d5d5d5;
+}
+.single_progress_bar h2{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* About Us */
+.about_us_p {
+    font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	color: #272727;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 30px;
+}
+.about_title h2{
+    font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #3d3d3d;
+	text-transform: uppercase;
+	margin-top: 85px;
+	letter-spacing: 6px;
+	margin-bottom: 50px;
+}
+.about_title img{
+	margin-bottom: 70px;
+}
+.about_us_area {
+	background: url(../images/ignasi_pattern_s.png);
+    padding-top: 0px;
+    padding-bottom: 80px;
+    margin-top: -5px;
+}
+/* Education */
+.education_p {
+    color: #272727;
+}
+.education_p h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.education_p p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.education_title h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    margin-top: 85px;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
+}
+.education_title img{
+    margin-bottom: 70px;
+}
+.education {
+    padding-top: 10px;
+    padding-bottom: 80px;
+    background: url(../images/geometry.jpg);
+}
+
+/* Experience */
+.experience_title h2{
+    font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 20px;
+	letter-spacing: 6px;
+	margin-bottom: 50px;
+}
+.experience_title img{
+	margin-bottom: 70px;
+}
+
+.center-block {
+	float: none !important;
+}
+
+.experience {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: url(../images/stardust.jpg);
+}
+.experience_c h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+.experience_c p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+.experience_w h1 {
+	text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.experience_w p {
+	text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+.experience_w li {
+	text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+.language-exp h1 {
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.courses {
+    
+}
+.experience .icon:after{
+	content: "";
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-color: #7CEECE;
+	top: 110px;
+	left: 50%;
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	margin-left: -40px;
+
+}
+.experience .icon i{
+color: #fff;
+font-size: 47px;
+position: absolute;
+z-index: 555;
+left: 50%;
+margin-left: -23px;
+}
+
+/* Projects */
+.projects{
+    padding-top: 0px;
+    padding-bottom: 100px;
+    background: url(../images/hex.jpg);
+}
+.no_padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.work_title{
+
+}
+.work_title h1 {
+    font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #fff;
+	letter-spacing: 5px;
+	padding-top: 50px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.contact_title h1 { 
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	color: #3d3d3d;
+	letter-spacing: 5px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.work_title img, .contact_title img{
+	margin-bottom: 30px;
+}
+.work_title p, .contact_title p{
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 100px;
+}
+.last_padding {
+	padding-right: 0px;
+}
+.single_image{
+	margin-right: 3px;
+	position: relative;
+	transition: all 1s;
+}
+.single_image img{
+	width: 100%;
+
+}
+.single_image:hover div.image_overlay{
+	opacity: 1;
+}
+.image_overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(124,238,206,.9);
+left: 0;
+top: 0;
+opacity: 0;
+	transition: all 1s;
+}
+.image_overlay a{
+position: absolute;
+top: 20px;
+right: 20px;
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;	
+}
+.image_overlay h2{
+position: absolute;
+bottom: 28px;
+left: 20px;
+font-size: 25px;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 3px;	
+}
+.image_overlay h4{
+position: absolute;
+bottom: 11px;
+left: 20px;
+color: #fff;
+font-size: 14px;
+text-transform: uppercase;	
+}
+
+/*Contact*/
+.contact{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: url(../images/symphony.jpg);
+}
+.single_contact_info{
+padding-bottom: 21px;	
+}
+.single_contact_info h2{
+text-transform: uppercase;
+color: #3d3d3d;
+font-size: 18px;
+letter-spacing: 3px;
+margin-bottom: 1px;	
+}
+.single_contact_info p{
+font-size: 15px;
+color: #3d3d3d;	
+}
+
+.contact-form{
+background-color: #f1f1f1;
+padding: 30px;
+}
+.contact-form .form-control{
+height: 43px;
+border-radius: 0px;
+margin-bottom: 20px;
+border: 0px solid #fff;
+}
+.contact-form #message{
+	height: 104px;
+}
+.form_submit{
+width: 100%;
+background: #7CEECE;
+border-radius: 0px;
+color: #fff;
+padding-top: 13px;
+padding-bottom: 10px;
+transition: all 1s;	
+}
+ul.icon_list{
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
+margin-top: 30px;
+}
+ul.icon_list li{
+display: inline;
+padding-left: 20px;
+padding-right: 20px;
+}
+ul.icon_list li a{
+display: inline-block;
+color: #636363;
+border: 1px solid #636363;
+border-radius: 50%;
+text-align: center;
+width: 90px;
+height: 90px;
+text-align: center;
+line-height: 28px;
+}
+ul.icon_list li a:hover{
+	color: #7CEECE;
+	border-color:#7CEECE; 
+}
+.work-with {
+padding-bottom: 60px;
+padding-top: 10px;
+}
+.work-with h3{
+	font-size: 14px;
+	color: #636363;
+	text-transform: uppercase;
+}
