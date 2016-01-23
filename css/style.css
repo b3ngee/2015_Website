@@ -13,9 +13,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar {
-	background-color: #eeeeeee;
+	background-color: #fff;
 	background: transparent;
 	border-color: transparent;
+	transition-duration: 0.5s;
 }
 .navbar-default .navbar-nav>li>a {
 	color: #000;
@@ -23,6 +24,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #7CEECE;
+}
+.fa-home {
+	color: #000;
+}
+.fa-home:hover {
+    color: #7CEECE;
 }
 header{
 	background: url(../images/creative2.jpg);

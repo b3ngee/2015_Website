@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BENJAMIN GEE - Aspiring Software Engineer</title>
+    <title>Benjamin Gee - Aspiring Software Engineer</title>
+    <link href="images/apple-icon-152x152.png" size="152x152" rel="apple-touch-icon">
 
     <!-- Google Font -->
     <link href='https://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
@@ -21,8 +22,6 @@
 
     <!-- Icon Font-->
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.default.css"> -->
 
     <!-- Animate CSS-->
     <link rel="stylesheet" href="css/animate.css">
@@ -522,10 +521,10 @@
                 <div class="col-md-12 text-center wow fadeInRight animated">
                     <div class="single_contact_info">
                         <ul class="icon_list">
-                            <li><a href=""><i class="fa fa-envelope fa-4x" style="margin-top:13px;margin-left:1px"></i></a></li>
+                            <li><a href="mailto:bmgee27@gmail.com"><i class="fa fa-envelope fa-4x" style="margin-top:13px;margin-left:1px"></i></a></li>
                             <li><a href="https://ca.linkedin.com/in/geeben"><i class="fa fa-linkedin fa-4x" style="margin-top:15px;margin-left:2px"></i></a></li>
                             <li><a href="https://github.com/b3ngee"><i class="fa fa-github fa-4x" style="margin-top:15px"></i></a></li>
-                            <li><a href="Benjamin Gee - Website Resume.pdf"><i class="fa fa-file-text fa-4x" style="margin-top:15px"></i></a></li>
+                            <li><a href="Benjamin Gee Resume.pdf"><i class="fa fa-file-text fa-4x" style="margin-top:15px"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -574,7 +573,7 @@
     <script>
         $(function(){
             $(".element").typed({
-                strings: [" student at UBC", " software engineer in training.", " Biochemistry graduate."],
+                strings: [" third year student at UBC.", " software engineer in training.", " Biochemistry graduate."],
                 typeSpeed: 20,
                 backSpeed: 20,
                 backDelay: 1000,
@@ -584,6 +583,21 @@
                 cursorChar: "|",
             });
         });
+
+        $(document).ready(function(){       
+            var scroll_start = 0;
+            var startchange = $('.nav');
+            var offset = startchange.offset();
+            $(document).scroll(function() { 
+                scroll_start = $(this).scrollTop();
+                if(scroll_start > offset.top) {
+                $('.navbar').css({"background":"#586a75"});
+            } else {
+                $('.navbar').css({"background":"transparent"});
+            }
+            });
+        });
+
     </script>
 
 </body>
