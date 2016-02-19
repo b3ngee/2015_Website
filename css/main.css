@@ -305,6 +305,12 @@ h1.navbar-brand {
     text-transform: uppercase;
 }
 
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #2D7990;
+    font-size: 17px;
+}
+
+
 
 /*=================================================================
 	Home Slider
@@ -365,10 +371,16 @@ h1.navbar-brand {
 
 .caption-content h2 {
     color: #000;
-    font-size: 100px;
+    font-size: 40px;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     text-transform: uppercase;
+}
+
+.caption-content p {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 180px;
 }
 
 .caption-content > span {
@@ -376,12 +388,6 @@ h1.navbar-brand {
     font-size: 24px;
     margin-bottom: 40px;
     text-transform: capitalize;
-}
-
-.caption-content p {
-    color: #000;
-    font-size: 28px;
-    margin-bottom: 65px;
 }
 
 /* The duplicate parts/slices */
@@ -1074,6 +1080,20 @@ textarea.form-control {
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
+    .caption-content h2 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    }
+
+    .caption-content p {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 180px;
+    }
+
 /*about*/
     #about .welcome-block img {
         margin-bottom: 30px;
@@ -1094,11 +1114,17 @@ textarea.form-control {
 
 /* home slider  */
     .caption-content h2 {
-        font-size: 40px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
     }
 
     .caption-content p {
-        font-size: 25px;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 180px;
     }
 
     .caption-content strong {
@@ -1170,17 +1196,22 @@ textarea.form-control {
 
 /* slider */
     .caption-content h2 {
-        font-size: 50px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    }
+
+    .caption-content p {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 180px;
     }
 
     .caption-content > span {
         font-size: 16px;
         margin-bottom: 20px;
-    }
-
-    .caption-content p {
-        font-size: 16px;
-        margin-bottom: 30px;
     }
 
     .caption-content strong {
@@ -1292,13 +1323,18 @@ textarea.form-control {
 
 /* home slider */
     .caption-content h2 {
-        font-size: 50px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: uppercase;
     }
 
     .caption-content p {
-        font-size: 25px;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 180px;
     }
-
     .caption-content strong {
         font-size: 35px;
     }
