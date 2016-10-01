@@ -48,13 +48,13 @@
 	text-align: center;
 }
 .project-sum ul {
+	padding-left: 0px;
 	list-style: none;
+	text-align: left;
 }
 .project-sum li {
 	font-size: 14px;
 	color: #272727;
-}
-li.sum {
 	line-height: 30px;
 }
 
